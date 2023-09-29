@@ -78,9 +78,6 @@ function App() {
     } catch (error) {
       console.error("Error updating data:", error);
     }
-
-    console.log("Saving newValue:", selectValue);
-    console.log("Saving inputValue:", inputValue);
   };
 
   const startEdit = (questionType: string, questionContent: string) => {
